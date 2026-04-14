@@ -1,16 +1,19 @@
-# hager2
+Fayoum Tourism App – سياحة الفيوم
 
-A new Flutter project.
+A complete tourism mobile application built using Flutter that showcases the beauty of Fayoum and provides users with all available services and information about tourist destinations in one place.
 
-## Getting Started
+تطبيق سياحة الفيوم هو تطبيق موبايل متكامل يهدف إلى تسهيل استكشاف الأماكن السياحية في محافظة الفيوم، حيث يوفر جميع الخدمات والمعلومات التي يحتاجها المستخدم أثناء رحلته.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📱 Features | المميزات
+🗺️ عرض الأماكن السياحية في الفيوم
+⭐ إضافة الأماكن للمفضلة
+👤 نظام تسجيل المستخدم (Register)
+📦 حفظ البيانات محليًا باستخدام Hive
+🎯 تجربة مستخدم سهلة وبسيطة (UI/UX)
+📸 عرض تفاصيل كل مكان (صور + وصف)
+🔍 تصفح الأماكن والخدمات المتاحة
+🏗️ Tech Stack | التقنيات المستخدمة
+Flutter & Dart
+State Management: Provider
+Local Database: Hive
+Architecture: Clean & Modular Structure
