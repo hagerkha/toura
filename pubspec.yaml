@@ -1,0 +1,75 @@
+name: Toura
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  device_preview: ^1.2.0
+  provider: ^6.0.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  crypto: ^3.0.3
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  url_launcher: ^6.3.1
+  video_player: ^2.9.1
+  chewie: ^1.7.5
+  cached_network_image: ^3.3.1
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+  # إضافة مكتبة تغيير الأيقونة هنا
+  flutter_launcher_icons: ^0.13.1
+
+# إعدادات أيقونة التطبيق
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/img.jpeg" # قمت بتغييرها لـ img.jpeg بناءً على ملفك، غيرها لو احتجت
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/img.jpeg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/tunis/
+    - assets/images/magic/
+    - assets/images/hatan/
+    - assets/images/moalq/
+    - assets/images/quro/
+    - assets/images/rayen/
+    - assets/images/sawqi/
+    - assets/images/arab/
+    - assets/images/sawqi/vedio/
+    - assets/images/rayen/vedio/1.mp4
+    - assets/images/magic/video/
+    - assets/images/onboarding1.jpg
+    - assets/images/onboarding2.jpg
+    - assets/images/onboarding3.jpg
+    - assets/images/img.jpeg
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/ArefRuqaa-Regular.ttf
+        - asset: assets/fonts/ArefRuqaa-Bold.ttf
+          weight: 700
